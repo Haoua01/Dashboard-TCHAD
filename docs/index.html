@@ -8,16 +8,18 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            color: #333;
         }
 
         header {
-            background: #007bff;
+            background: #4CAF50; /* Green background */
             color: white;
             padding: 20px;
             text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
 
         nav {
@@ -29,10 +31,11 @@
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #FFD700; /* Gold on hover */
         }
 
         .container {
@@ -40,11 +43,24 @@
             margin: 20px auto;
             padding: 20px;
             background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background: #f2f2f2; /* Light gray */
+            margin: 15px 0;
+            padding: 15px;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h2 {
             color: #333;
         }
 
@@ -56,12 +72,13 @@
         footer {
             text-align: center;
             margin-top: 20px;
-            padding: 10px;
-            background: #007bff;
+            padding: 15px;
+            background: #4CAF50;
             color: white;
             position: relative;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -76,23 +93,29 @@
     </header>
     
     <div class="container">
-        <h2 id="about">About This Project</h2>
-        <p>
-            This project aims to provide a comprehensive mapping of banking and non-banking equipment in the CEMAC region. 
-            We focus on financial inclusion in Chad and seek to model the relationship between access to these facilities and 
-            the economic development of the region.
-        </p>
-        
-        <h2 id="services">Our Services</h2>
-        <p>
-            We offer insights into the various financial service providers and their roles in enhancing financial inclusion 
-            in the region. Our research is designed to provide actionable data for stakeholders.
-        </p>
+        <div class="card">
+            <h2 id="about">About This Project</h2>
+            <p>
+                This project aims to provide a comprehensive mapping of banking and non-banking equipment in the CEMAC region. 
+                We focus on financial inclusion in Chad and seek to model the relationship between access to these facilities and 
+                the economic development of the region.
+            </p>
+        </div>
 
-        <h2 id="contact">Get in Touch</h2>
-        <p>
-            If you would like to collaborate or learn more about our research, please feel free to reach out!
-        </p>
+        <div class="card">
+            <h2 id="services">Our Services</h2>
+            <p>
+                We offer insights into the various financial service providers and their roles in enhancing financial inclusion 
+                in the region. Our research is designed to provide actionable data for stakeholders.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 id="contact">Get in Touch</h2>
+            <p>
+                If you would like to collaborate or learn more about our research, please feel free to reach out!
+            </p>
+        </div>
     </div>
 
     <footer>

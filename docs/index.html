@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard TCHAD - Inclusion Financière</title>
+    <title>Dashboard - Inclusion Financière</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -69,6 +69,23 @@
             color: #666;
         }
 
+        .map-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: #4CAF50; /* Fond vert */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .map-link:hover {
+            background: #45a049; /* Couleur plus foncée sur hover */
+        }
+
         footer {
             text-align: center;
             margin-top: 20px;
@@ -85,9 +102,6 @@
 <body>
     <header>
         <h1>Dashboard : Tchad</h1>
-        <nav>
-            <a href="#about">Inclusion financière au Tchad</a>
-        </nav>
     </header>
     
     <div class="container">
@@ -97,11 +111,21 @@
                 Ce projet vise à fournir une cartographie complète des équipements bancaires et non bancaires sur le territoire tchadien afin de modéliser la relation entre l'accès à ces infrastructures et 
                 le développement économique de la région.
             </p>
+            <p>
+                La carte ci-dessous représente la localisation de toutes les agences bancaires recensées sur le territoire national. Elle offre une vue d'ensemble des points d'accès aux services financiers, 
+                ce qui est essentiel pour améliorer l'inclusion financière au Tchad.
+            </p>
         </div>
+
+        <a href="bank_agencies_map.html" class="map-link">Voir la Carte des Agences Bancaires</a> <!-- Lien mis en valeur -->
     </div>
 
     <footer>
         <p>&copy; 2024 Dashboard TCHAD. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
     </footer>
 </body>
 </html>

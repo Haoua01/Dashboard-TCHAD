@@ -1,7 +1,7 @@
 # Dashboard-TCHAD
 Dashboard for access to financial equipments across Tchad
 
-# Financial Inclusion Mapping in Su-Saharan Africa 
+# Financial Inclusion Mapping in Sub-Saharan Africa 
 
 ## Overview
 

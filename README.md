@@ -20,6 +20,7 @@ The model will involve :
 - a cartography of the locations of the different financial services involving mainly **bank branches**, **mobile money outlets** and **microfinance agencies**;
 - an analysis of the impact of **opening or closing a service** in the territory;
 - an **econometric study** of the causal link between access to the equipments and economic develepment.
+- a study of the impact of closing/opening a branch in a given area for the access.  
 
 ## Call for Collaboration
 

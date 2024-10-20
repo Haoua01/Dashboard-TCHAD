@@ -20,14 +20,14 @@ The model will involve :
 - a cartography of the locations of the different financial services involving mainly **bank branches**, **mobile money outlets** and **microfinance agencies**;
 - an analysis of the impact of **opening or closing a service** in the territory;
 - an **econometric study** of the causal link between access to the equipments and economic develepment.
-- a study of the impact of closing/opening a branch in a given area for the access.  
+- a study of the **impact of closing/opening a branch** in a given area for the access.  
 
 ## Call for Collaboration
 
 I am reaching out to request **documentation and data** to support my study on this topic. 
 I will be needing :
-- data on the location of the services
-- data on the demographics and geographic characteristics of the countries
+- data on the location of the services;
+- data on the demographics and geographic characteristics of the countries;
 - documentation on financial inclusion related works in the topic.
 
 ## Contact

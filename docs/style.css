@@ -114,3 +114,20 @@ footer p {
     font-size: 1em;
     font-weight: 500;
 }
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Same green background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
